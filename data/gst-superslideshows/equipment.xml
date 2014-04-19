@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><slideshow_pages><![CDATA[equipment3|equipment1|equipment2|equipment6|equipment5|equipment7|equipment4|equipment8]]></slideshow_pages><settings><effect>blindX</effect><easing>easeIn</easing><pager>#slideNav</pager><next>#arrowRight</next><previous>#arrowLeft</previous><speed>1000</speed><timeout>7000</timeout></settings></item>

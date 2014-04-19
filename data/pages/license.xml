@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Sun, 10 Mar 2013 23:59:57 +0600</pubDate><title><![CDATA[Лицензия]]></title><url><![CDATA[license]]></url><meta><![CDATA[лицензия, Деятельность, Строительная компания, законодательство РК, модульные здания, блок-контейнеры]]></meta><metad><![CDATA[Деятельность ТОО Строительная компания &laquo;Зере&raquo; лицензирована согласно действующему законодательству РК.]]></metad><menu><![CDATA[Лицензия]]></menu><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template-license.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;p&gt;
+	Деятельность ТОО Строительная компания &amp;laquo;Зере&amp;raquo; лицензирована согласно действующему законодательству РК.&lt;/p&gt;
+&lt;p&gt;
+	(% gallery name=license %)&lt;/p&gt;
+]]></content><private><![CDATA[]]></private><menuOrder><![CDATA[6]]></menuOrder></item>

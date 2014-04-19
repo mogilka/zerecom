@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channel><item><title><![CDATA[Company]]></title><slug>company</slug><value><![CDATA[Строительная компания]]></value></item><item><title><![CDATA[Company_en]]></title><slug>companyen</slug><value><![CDATA[Construction Company]]></value></item><item><title><![CDATA[Counter]]></title><slug>counter</slug><value><![CDATA[		&lt;noindex&gt;&lt;p class=&quot;right-footer&quot;&gt;
+			&lt;!--Openstat--&gt;&lt;span id=&quot;openstat2153317&quot;&gt;&lt;/span&gt;&lt;script type=&quot;text/javascript&quot;&gt;
+			var openstat = { counter: 2153317, image: 5042, next: openstat }; (function(d, t, p) {
+			var j = d.createElement(t); j.async = true; j.type = &quot;text/javascript&quot;;
+			j.src = (&quot;https:&quot; == p ? &quot;https:&quot; : &quot;http:&quot;) + &quot;//openstat.net/cnt.js&quot;;
+			var s = d.getElementsByTagName(t)[0]; s.parentNode.insertBefore(j, s);
+			})(document, &quot;script&quot;, document.location.protocol);
+			&lt;/script&gt;&lt;!--/Openstat--&gt;		
+		&lt;/p&gt;&lt;/noindex&gt;
+]]></value></item><item><title><![CDATA[Footer]]></title><slug>footer</slug><value><![CDATA[	&lt;div id=&quot;footer&quot;&gt;
+		&lt;p class=&quot;left-footer&quot;&gt;&amp;#169; 2007-&lt;?php echo date(&#039;Y&#039;); ?&gt; &lt;br&gt;&lt;strong&gt;&lt;?php get_site_name(); ?&gt;&lt;/strong&gt;&lt;/p&gt;
+		&lt;?php get_component(&#039;counter&#039;); ?&gt;
+		&lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;
+		&lt;?php get_footer(); ?&gt;
+	&lt;/div&gt;
+]]></value></item><item><title><![CDATA[Footer_en]]></title><slug>footeren</slug><value><![CDATA[	&lt;div id=&quot;footer&quot;&gt;
+		&lt;p class=&quot;left-footer&quot;&gt;&amp;#169; 2007-&lt;?php echo date(&#039;Y&#039;); ?&gt; &lt;br&gt;&lt;strong&gt;Zere &lt;?php get_component(&#039;companyen&#039;); ?&gt;&lt;/strong&gt;&lt;/p&gt;
+		&lt;?php get_component(&#039;counter&#039;); ?&gt;
+		&lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;
+		&lt;?php get_footer(); ?&gt;
+	&lt;/div&gt;
+]]></value></item><item><title><![CDATA[gacounter]]></title><slug>gacounter</slug><value><![CDATA[&lt;script type=&quot;text/javascript&quot;&gt;
+
+  var _gaq = _gaq || [];
+  _gaq.push([&#039;_setAccount&#039;, &#039;UA-38037608-1&#039;]);
+  _gaq.push([&#039;_trackPageview&#039;]);
+
+  (function() {
+    var ga = document.createElement(&#039;script&#039;); ga.type = &#039;text/javascript&#039;; ga.async = true;
+    ga.src = (&#039;https:&#039; == document.location.protocol ? &#039;https://ssl&#039; : &#039;http://www&#039;) + &#039;.google-analytics.com/ga.js&#039;;
+    var s = document.getElementsByTagName(&#039;script&#039;)[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+&lt;/script&gt;]]></value></item><item><title><![CDATA[Header]]></title><slug>header</slug><value><![CDATA[	&lt;div id=&quot;header&quot;&gt;
+		&lt;div class=&quot;flags&quot;&gt;&lt;?php get_flags(); ?&gt;&lt;/div&gt;
+		&lt;p class=&quot;company&quot;&gt;&lt;?php get_i18n_component(&#039;company&#039;); ?&gt;&lt;/p&gt;
+		&lt;a class=&quot;logo&quot; href=&quot;/&quot;&gt;&lt;?php get_logo_image(); ?&gt;&lt;/a&gt;
+		&lt;p class=&quot;tagline&quot;&gt;&lt;?php get_i18n_component(&#039;tagline&#039;); ?&gt;&lt;/p&gt;
+		&lt;div id=&quot;navmenu&quot;&gt;&lt;ul id=&quot;nav&quot;&gt;&lt;?php get_i18n_navigation(return_page_slug()); ?&gt;&lt;/ul&gt;&lt;/div&gt;
+	&lt;/div&gt;
+]]></value></item><item><title><![CDATA[Header_en]]></title><slug>headeren</slug><value><![CDATA[	&lt;div id=&quot;header&quot;&gt;
+		&lt;div class=&quot;flags&quot;&gt;&lt;?php get_flags(); ?&gt;&lt;/div&gt;
+		&lt;p class=&quot;company&quot;&gt;&lt;?php get_i18n_component(&#039;companyen&#039;); ?&gt;&lt;/p&gt;
+		&lt;a class=&quot;logo&quot; href=&quot;/&quot;&gt;&lt;?php get_logo_image(); ?&gt;&lt;/a&gt;
+		&lt;p class=&quot;tagline&quot;&gt;&lt;?php get_i18n_component(&#039;taglineen&#039;); ?&gt;&lt;/p&gt;
+		&lt;div id=&quot;navmenu&quot;&gt;&lt;ul id=&quot;nav&quot;&gt;&lt;?php get_i18n_navigation(return_page_slug()); ?&gt;&lt;/ul&gt;&lt;/div&gt;
+	&lt;/div&gt;
+]]></value></item><item><title><![CDATA[SendMail]]></title><slug>sendmail</slug><value><![CDATA[&lt;?php get_mailform(&#039;ru&#039;); ?&gt;]]></value></item><item><title><![CDATA[Sidebar]]></title><slug>sidebar</slug><value><![CDATA[&lt;h2&gt;GetSimple Features&lt;/h2&gt;
+&lt;ul&gt; 
+&lt;li&gt;XML based data storage&lt;/li&gt; 
+&lt;li&gt;Best-in-Class User Interface&lt;/li&gt; 
+&lt;li&gt;&#039;Undo&#039; protection &amp;amp; backups&lt;/li&gt; 
+&lt;li&gt;Easy to theme&lt;/li&gt; 
+&lt;li&gt;Great documentation&lt;/li&gt; 
+&lt;li&gt;Growing community&lt;/li&gt; 
+&lt;/ul&gt;
+&lt;p&gt;This is your sidebar text. Please change me in &lt;em&gt;Theme -&gt; Edit Components&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://get-simple.info/download/&quot;&gt;Download the Latest GetSimple&lt;/a&gt;&lt;/p&gt;]]></value></item><item><title><![CDATA[Tagline]]></title><slug>tagline</slug><value><![CDATA[Строительство модульных зданий, блок-контейнеров]]></value></item><item><title><![CDATA[Tagline_en]]></title><slug>taglineen</slug><value><![CDATA[Manufacturers of mobile modular buildings]]></value></item></channel>

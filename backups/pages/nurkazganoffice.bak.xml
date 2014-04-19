@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Sat, 17 Dec 2011 00:36:11 +0600</pubDate><title><![CDATA[Рудник &laquo;Северный Нурказган&raquo;]]></title><url><![CDATA[nurkazganoffice]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Gallery]]></menu><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;p style=\&quot;float: right\&quot;&gt;
+	Корпорация &amp;laquo;Казахмыс&amp;raquo;&lt;br /&gt;
+	Рудник &amp;laquo;Северный Нурказган&amp;raquo;&lt;br /&gt;
+	Офисное здание&lt;/p&gt;
+&lt;p&gt;
+	(% gallery name=nurkazganoffice %)&lt;/p&gt;
+]]></content><private><![CDATA[]]></private></item>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Sat, 17 Dec 2011 00:13:35 +0600</pubDate><title><![CDATA[Северный Нурказган. Офисное здание]]></title><url><![CDATA[gallery]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Gallery]]></menu><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;p style=\&quot;text-align: center\&quot;&gt;
+	(% gallery name=nurkazganoffice %)&lt;/p&gt;
+]]></content><private><![CDATA[]]></private></item>

@@ -1,0 +1,54 @@
+Обновление движка до GetSimple 3.0 для zerecom.kz
+=================================================
+
+1) Обновление произведено по инструкции, которая находится по адресу http://get-simple.info/wiki/installation:upgrade
+
+2) System Update:
+- Created new chingiz.xml file
+- Renamed website.xml to _legacy_website.xml
+- Created updated website.xml file
+- Renamed user.xml to _legacy_user.xml
+- Renamed cp_settings.xml to _legacy_cp_settings.xml
+
+3) Файл admin/inc/custom_functions.php переименован в zerecom.php и перемещён в корень сайта.
+
+
+
+Модификация GetSimple 2.03 для zerecom.kz
+=========================================
+
+1) Добавлен файл 0c0862820950.html для... TODO
+
+2) Изменён admin/inc/common.php:
+в блоке
+ if(isset($base)) {
+ 	include_once(GSADMININCPATH.'theme_functions.php');
+ }
+содержимое заменено на:
+	include_once(GSADMININCPATH.'custom_functions.php');
+
+3) Добавлен собственный модуль функций admin/inc/custom_functions.php.
+
+4) Установлен плагин gst-superslideshows и добавлены слайдшоу-страницы (data/gst-superslideshows).
+
+5) Изменён data/other/components.xml: добавлены компоненты сайта для разных языков.
+
+6) Изменён data/other/user.xml: изменён пароль и email администратора.
+
+7) Добавлен (системой?) data/other/authorization.xml TODO
+
+8) Добавлен (системой?) data/other/cp_settings.xml TODO
+
+9) Изменён data/other/website.xml: изменены параметры сайта.
+
+10) Добавлены страницы с контентом (data/pages/).
+
+11) Добавлены фото для использования на страницах сайта (data/uploads/). Миниатюры картинок созданы автоматически в папке data/thumbs/.
+
+12) Добавлен плагин галереи simple gallery (plugins/galleryfiles/). Затем добавлены фото для использования в галерее (gallery/). Миниатюры картинок созданы автоматически в папке gallery/thumbs/.
+
+13) Переименован файл temp.gsconfig.php в gsconfig.php. Затем в нём откорректированы параметры сайта.
+
+14) Добавлен плагин мультиязычности I18N (plugins/i18n/, data/other/i18n_menu_cache.xml).
+
+15) Добавлен плагин обратной связи p01-contact (plugins/p01-contact/).
